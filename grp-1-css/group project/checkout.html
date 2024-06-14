@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout summary</title>
+    <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+    <section class="container">
+        <div class="checkout-container">
+            <h2>Checkout</h2>
+            <div class="contact-details">
+                <label for="email">Contact Details</label>
+                <input type="email" class="email" placeholder="Email ID">
+            </div>
+            <div class="payment-section">
+                <h3>Payment</h3>
+                <div class="payment-methods">
+                    <button class="payment-method active">Card</button>
+                    <button class="payment-method">Crypto</button>
+                    <button class="payment-method">Bank</button>
+                    <button class="payment-method">...</button>
+                </div>
+                <div class="payment-details">
+                    <label>Card number</label>
+                    <input type="text" placeholder="0000000000" class="card">
+                    <div class="exp">
+                        <div>
+                            <label>Expiry</label>
+                            <input type="text" placeholder="MM/YY" class="expiry">
+                        </div>
+                        <div class="div2">
+                            <label>CVC</label>
+                            <input type="text" placeholder="***" class="cvc">
+                        </div> 
+                    </div>
+                    <div class="country">
+                        <div>
+                            <label>Country</label>
+                            <select class="drop">
+                                <option value="india">India</option>
+                                <option value="india">USA</option>
+                                <option value="india">UAE</option>
+                                <option value="india">Australia</option>
+                                <option value="india">UK</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>ZIP</label>
+                            <input type="text" placeholder="xyzxyz" class="zip">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="r2">
+            <h1>Order Summary</h1>
+            <div  class="right">
+                <h3>Enter Coupon Code</h3>
+                <form action="#">
+                    <input type="text" placeholder="COUPON CODE" class="right-input">
+                    <BUtton class="b1">Apply Coupon</BUtton>
+                </form>
+                <table class="invoice-table">
+                    <tr>
+                        <td class="label">Sub Total</td>
+                        <td class="value">₹4,700</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Taxes (if applicable)</td>
+                        <td class="value">₹199</td>
+                    </tr>
+                    <tr>
+                        <td class="label">Discount</td>
+                        <td class="value">₹0</td>
+                    </tr>
+                    <tr class="total">
+                        <td class="label">Total</td>
+                        <td class="value">₹4,999</td>
+                    </tr>
+                </table>
+            </div>
+            <button class="pay">Pay Now ₹4,999</button>
+            <img src="assets/last.png" class="last">
+        </div>
+    </section>
+    
+</body>
+</html>

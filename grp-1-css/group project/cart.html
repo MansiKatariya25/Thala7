@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart summary</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Thala <span>7</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">More</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-icons">
+                <input type="text" placeholder="Search" class="search-bar">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+            </div>
+        </nav>
+    </header>
+    <main>
+         <h1 class="Shopping">Shopping Cart</h1>
+            <section class="container">
+            <div class="left">
+                <table class="product-table">
+                    <thead class="heading">
+                        <tr>
+                            <th>Product</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Seven By M.S.Dhoni W...</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><button class="remove">✖</button></td>
+                        </tr>
+                        <tr>
+                            <td>Seven By M.S.Dhoni W...</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><button class="remove">✖</button></td>
+                        </tr>
+                        <tr>
+                            <td>Seven By M.S.Dhoni W...</td>
+                            <td>
+                                <button>-</button>
+                                <span>1</span>
+                                <button>+</button>
+                            </td>
+                            <td>₹4,999</td>
+                            <td><button class="remove">✖</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="r2">
+                <div  class="right">
+                    <h3>Enter Coupon Code</h3>
+                    <form action="#">
+                        <input type="text" placeholder="COUPON CODE">
+                        <BUtton>Apply Coupon</BUtton>
+                    </form>
+                    <table class="invoice-table">
+                        <tr>
+                            <td class="label">Sub Total</td>
+                            <td class="value">₹4,700</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Taxes (if applicable)</td>
+                            <td class="value">₹199</td>
+                        </tr>
+                        <tr>
+                            <td class="label">Discount</td>
+                            <td class="value">₹0</td>
+                        </tr>
+                        <tr class="total">
+                            <td class="label">Total</td>
+                            <td class="value">₹4,999</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="pay"><a class="link" href="checkout.html">Pay Now ₹4,999</a></button>
+                <img src="assets/last.png" class="last">
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>

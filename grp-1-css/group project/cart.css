@@ -1,0 +1,205 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #222;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7f00;
+}
+.logo h1 span{
+    color: blue;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    padding: 25px;
+}
+
+.nav-links a:hover {
+    color: #ff7f00;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.fas {
+    margin-right: 10px;
+    color: #666;
+}
+
+.profile-pic {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Shopping {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.left {
+    display: flex;
+    flex-direction: column;;
+    width: 50vw;
+    height: 100vh;
+    margin-top: 3rem;
+}
+.product-table {
+    /* width: 50%; */
+    border-collapse: collapse;
+    border: transparent;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 50px;
+}
+.heading {
+    color: gray;
+}
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table button {
+    border: none;
+    border: transparent;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-table .remove {
+    color: red;
+    font-size: 20px;
+}
+
+.product-table button:focus {
+    outline: none;
+}
+form input {
+    color: #ccc;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+form button {
+    margin-left: 10px;
+    color: white;
+    border: 1px solid #158bfa;
+    background-color: #158bfa;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.r2 {
+    width: 50vw;
+    height: 100vh;
+    margin-left: 30px;
+}
+.right {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    padding: 20px;
+    width: 30vw;
+}
+.invoice-table{
+    width: 30vw;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+.invoice-table .label {
+    color: #6e6e6e;
+    text-align: left;
+}
+
+.invoice-table .value {
+    color: #000;
+    text-align: right;
+}
+
+.invoice-table .total .label {
+    font-weight: bold;
+    color: #000;
+    font-size: 25px;
+}
+
+.invoice-table .total .value {
+    font-size: 25px;
+    font-weight: bold;
+    color: #000;
+}
+.pay {
+    border: none;
+    border-radius: 10px;
+    width: 33vw;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 15px;
+    color: white;
+    background-color: #f68f28;
+}
+.last {
+    margin-top: 30px;
+    border: none;
+    background-color: #f7f7f7;
+    width: 33vw;
+}
+.link{
+    text-decoration: none;
+    font-size: large;
+}
+
